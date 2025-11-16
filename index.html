@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N Streem - Movie Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">N Streem</div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Series</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+
+  <!-- Video Player Section -->
+  <section class="player-section">
+    <div class="video-container">
+      <video id="video" controls preload="metadata" poster="poster.jpg">
+        <source src="Poster&Video/Lilo _ Stitch _ Official Trailer _ In Theaters May 23(720P_HD).mp4" type="video/mp4" />
+        Your browser doesn’t support video playback.
+      </video>
+  </section>
+
+  <!-- Movie Info Section -->
+  <section class="movie-info">
+    <img src="Poster&Video/e0868f05b0bc8900ae1747174e5cd255.jpg" alt="Movie Poster" class="poster" />
+    <div class="details">
+      <h2>Lilo & Stitch</h2>
+      <p class="meta"> | CBFC: U 2025 ‧ Comedy/Sci-fi ‧ 1h 48m | </p>
+      <p class="rating">IMDb 7.6/10</p>
+      <p class="overview">
+        Stitch, an extraterrestrial entity, comes to Earth after escaping prison, where he tries to impersonate a dog. Things take a turn when a lonely Hawaiian girl, Lilo, adopts him from an animal shelter and he helps mend her broken family.
+      </p>
+      <div class="buttons">
+        <button class="btn">Watchlist +</button>
+        <button class="btn">Share</button>
+        <button class="btn"><a href="https://drive.google.com/file/d/12IeKXIAYPjyK8S3OKp5jw910m8kIsc0Q/view?usp=drivesdk">Download</a></button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
